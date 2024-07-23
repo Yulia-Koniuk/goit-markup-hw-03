@@ -123,6 +123,7 @@ img {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #2E2F42;
+    padding: 24px 0;
 }
 
 .header-menulink:hover,
@@ -144,6 +145,7 @@ img {
 
 .header-contactlink {
     letter-spacing: 0.02em;
+    padding: 24px 0;
 }
 
 .header-contactlink:hover,
@@ -264,7 +266,7 @@ h1 {
 }
 
 .main-team .container {
-    padding: 0 24px;
+    padding: 32px 0;
 }
 
 .team-list {
@@ -315,6 +317,11 @@ h1 {
     margin-bottom: 72px;
 }
 
+.main-portfolio .container {
+    padding: 32px 16px;
+    border: 1px solid #e7e9fc;
+}
+
 .portfolio-list {
     display: flex;
     flex-wrap: wrap;
@@ -327,8 +334,6 @@ h1 {
     flex: 1 1 calc((100% - 48px) / 3);
     min-width: 200px;
     text-align: center;
-    border: 1px solid #E7E9FC;
-    padding: 32px 16px;
     border-radius: 4px;
 }
 
